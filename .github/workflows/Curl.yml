@@ -1,0 +1,22 @@
+name: Curl
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  push:
+    branches: main
+
+jobs:
+  Curl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - name: Curl
+        run: |
+          curl https://github.com/xhemj
+          curl https://github.com/xhemj/xhemj
+          curl https://visitor-badge.glitch.me/badge?page_id=xhemj.xhemj
+          curl https://xhemj.js.org
+          curl https://www.baidu.com/s?word=xhemj
+          curl https://github.com/icerss
