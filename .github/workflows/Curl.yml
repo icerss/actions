@@ -14,18 +14,18 @@ jobs:
       - uses: actions/checkout@master
       - name: Curl
         run: |
-          "=============start=================" >> curl.log
+          cd output
+          echo " /n " >> curl.log
+          echo "=============start=================" >> curl.log
           date "+%Y-%m-%d %H:%M:%S" >> curl.log
-          "=================================" >> curl.log
+          echo "==============" >> curl.log
           curl https://github.com/xhemj >> curl.log
-          "=================================" >> curl.log
+          echo "==============" >> curl.log
           curl https://github.com/xhemj/xhemj >> curl.log
-          "=================================" >> curl.log
+          echo "==============" >> curl.log
           curl https://visitor-badge.glitch.me/badge?page_id=xhemj.xhemj  >> curl.log
-          "=================================" >> curl.log
+          echo "==============" >> curl.log
           curl https://xhemj.js.org  >> curl.log
-          "=================================" >> curl.log
-          curl https://www.baidu.com/s?word=xhemj  >> curl.log
-          "=================================" >> curl.log
+          echo "==============" >> curl.log
           curl https://github.com/icerss  >> curl.log
-          "==============end================" >> curl.log
+          echo "==============end================" >> curl.log
