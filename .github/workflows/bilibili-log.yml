@@ -15,7 +15,7 @@ jobs:
 
       - name: Curl 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
-          echo date +%Y_%m_%d%t%H:%M:%S >> bilibili.log
+          date +%Y_%m_%d%t%H:%M:%S >> bilibili.log
           curl -o /dev/null -s -w "建立到服务器的 TCP 连接所用的时间：%{time_connect}\n服务器返回数据的第一个字节所用的时间：%{time_starttransfer}\n完成请求所用的时间：%{time_total}\n状态码：%{http_code}\n\n" http://www.bilibili.com >> bilibili.log
         env:
           CI: false
