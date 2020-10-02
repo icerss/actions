@@ -14,6 +14,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Curl
         run: |
+          mkdir output
           echo " /n " >> /output/curl.log
           echo "=============start=================" >> /output/curl.log
           date "+%Y-%m-%d %H:%M:%S" >> /output/curl.log
