@@ -14,25 +14,17 @@ jobs:
       - uses: actions/checkout@master
       - name: Curl
         run: |
-          cd output
-          echo " /n " >> curl.log
-          echo "=============start=================" >> curl.log
-          date "+%Y-%m-%d %H:%M:%S" >> curl.log
-          echo "==============" >> curl.log
-          curl https://github.com/xhemj >> curl.log
-          echo "==============" >> curl.log
-          curl https://github.com/xhemj/xhemj >> curl.log
-          echo "==============" >> curl.log
-          curl https://visitor-badge.glitch.me/badge?page_id=xhemj.xhemj  >> curl.log
-          echo "==============" >> curl.log
-          curl https://xhemj.js.org  >> curl.log
-          echo "==============" >> curl.log
-          curl https://github.com/icerss  >> curl.log
-          echo "==============end================" >> curl.log
-          
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: curl-log # The branch the action should deploy to.
-          FOLDER: output # The folder the action should deploy.
+          echo " /n " >> /output/curl.log
+          echo "=============start=================" >> /output/curl.log
+          date "+%Y-%m-%d %H:%M:%S" >> /output/curl.log
+          echo "==============" >> /output/curl.log
+          curl https://github.com/xhemj >> /output/curl.log
+          echo "==============" >> /output/curl.log
+          curl https://github.com/xhemj/xhemj >> /output/curl.log
+          echo "==============" >> /output/curl.log
+          curl https://visitor-badge.glitch.me/badge?page_id=xhemj.xhemj  >> /output/curl.log
+          echo "==============" >> /output/curl.log
+          curl https://xhemj.js.org  >> /output/curl.log
+          echo "==============" >> /output/curl.log
+          curl https://github.com/icerss  >> /output/curl.log
+          echo "=========
