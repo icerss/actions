@@ -14,10 +14,9 @@ jobs:
       - uses: actions/checkout@master
       - name: Curl
         run: |
-          mkdir output
           echo " /n " >> /output/curl.log
           echo "=============start=================" >> /output/curl.log
-          date "+%Y-%m-%d %H:%M:%S" >> /output/curl.log
+          echo date "+%Y-%m-%d %H:%M:%S" >> /output/curl.log
           echo "==============" >> /output/curl.log
           curl https://github.com/xhemj >> /output/curl.log
           echo "==============" >> /output/curl.log
