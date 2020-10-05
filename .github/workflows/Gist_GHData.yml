@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: xhemj/Gist_GHData@master
+        uses: Zalbani/Gist_GHData@master
         env:
           GH_TOKEN: ${{ secrets.Gist_GHData_GH_TOKEN }}
           GIST_ID: ${{ secrets.Gist_GHData_GIST_ID }}
