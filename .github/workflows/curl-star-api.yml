@@ -1,0 +1,17 @@
+name: Curl Mingyan Star Api
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  push:
+    branches: main
+
+jobs:
+  update-gist:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - name: Run
+        run: |
+          curl https://star-api.xhemj.now.sh/api/?from=github_action_auto_curl
