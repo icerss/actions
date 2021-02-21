@@ -1,4 +1,4 @@
-name: Curl Mingyan Star Api
+name: Curl Api
 
 on:
   schedule:
@@ -15,3 +15,5 @@ jobs:
       - name: Run
         run: |
           curl https://star-api.xhemj.now.sh/api/?from=github_action_auto_curl
+          curl https://ss.now.sh/github_action_auto_curl?from=github_action_auto_curl
+          curl https://ip.xhemj.now.sh/api/ip?from=github_action_auto_curl
