@@ -2,7 +2,7 @@ name: Curl Api
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "/10 * 8-22 * * ? *"
   push:
     branches: main
 
