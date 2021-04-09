@@ -2,7 +2,7 @@ name: Get Mingyan Ranking Data
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "0 0,12 * * *"
   push:
     branches: main
 
@@ -15,3 +15,13 @@ jobs:
       - name: Run
         run: |
           curl https://star-api.xhemj.vercel.app/api/star?token=${{ secrets.RANKING_API_KEY }} > ./data/ranking.json
+      
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v7.1.1
+        with:
+            add: .
+            author_name: xhemj-bot
+            author_email: xhemj_service@126.com
+            message: ":+1: Get Mingyan Ranking Data"
+            
+          
