@@ -7,7 +7,7 @@ on:
     branches: main
 
 jobs:
-  update-gist:
+  get-ranking:
     runs-on: ubuntu-latest
 
     steps:
