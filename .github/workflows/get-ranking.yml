@@ -15,8 +15,11 @@ jobs:
       - name: Run
         run: |
           curl https://star-api.xhemj.vercel.app/api/star?token=${{ secrets.RANKING_API_KEY }} > ranking.json
-          curl https://star-api.xhemj.vercel.app/api/star?token=${{ secrets.RANKING_API_KEY }}&count=all > ranking.all.json
-          
+
+      - name: Run2
+        run: |
+          curl https://star-api.xhemj.vercel.app/api/star?count=all&token=${{ secrets.RANKING_API_KEY }} > ranking-all.json
+
       - name: Add & Commit
         uses: EndBug/add-and-commit@v7.1.1
         with:
