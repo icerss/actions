@@ -21,5 +21,5 @@ jobs:
         with:
             add: ". --force"
             author_name: xhemj-bot
-            author_email: xhemj_service@126.com
+            author_email: {{ secrets.BOT_MAIL }}
             message: ":+1: Get Mingyan Ranking Data"
