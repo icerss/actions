@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Run
         run: |
-          curl https://api.xmsyyxx.com/api/v3/star?token=${{ secrets.RANKING_API_KEY }}&source=shuangshi  > ranking_shuangshi.json
+          curl https://api.xmsyyxx.com/api/v3/star?source=shuangshi&token=${{ secrets.RANKING_API_KEY }}  > ranking_shuangshi.json
           curl https://api.xmsyyxx.com/api/v3/star?token=${{ secrets.RANKING_API_KEY }} > ranking.json
 
       - name: Add & Commit
