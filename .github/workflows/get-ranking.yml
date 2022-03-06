@@ -24,3 +24,4 @@ jobs:
             author_name: xhemj-bot
             author_email: ${{ secrets.BOT_MAIL }}
             message: "每日获取耳斯名言精选名言"
+            
