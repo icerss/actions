@@ -1,1 +1,147 @@
-{"msg":"请求成功","data":[{"num":5,"text":"语文陈老师：好，下课了，我们来看下一个点"},{"num":3,"text":"数学卢老师：优秀是一种习惯，习惯了自然优秀"},{"num":3,"text":"生物姜老师：你…挺爱吃…肾啊…"},{"num":2,"text":"段长刘老师：我允许你以后看到我可以叫我白墙段长"},{"num":2,"text":"地理赖老师：要罚款的啊，五百大洋"},{"num":1,"text":"数学曹老师：数学，课代表，作业，答案"},{"num":1,"text":"语文陈老师：这个同学，我看你目光呆滞，嘴巴圆圆"},{"num":1,"text":"语文陈老师：我就喜欢看你不知所措的样子"},{"num":1,"text":"生物姜老师：有些错，只能犯一次"},{"num":1,"text":"语文陈老师：看看周围有没有人在看我"}]}
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Just a moment...</title>
+  <style>
+    html, body {width: 100%; height: 100%; margin: 0; padding: 0;}
+    body {background-color: #ffffff; color: #000000; font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue",Arial, sans-serif; font-size: 16px; line-height: 1.7em;-webkit-font-smoothing: antialiased;}
+    h1 { text-align: center; font-weight:700; margin: 16px 0; font-size: 32px; color:#000000; line-height: 1.25;}
+    p {font-size: 20px; font-weight: 400; margin: 8px 0;}
+    p, .attribution, {text-align: center;}
+    #spinner {margin: 0 auto 30px auto; display: block;}
+    .attribution {margin-top: 32px;}
+    @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+    @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+    #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+    #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+    #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+    .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+    a { color: #2c7cb0; text-decoration: none; -moz-transition: color 0.15s ease; -o-transition: color 0.15s ease; -webkit-transition: color 0.15s ease; transition: color 0.15s ease; }
+    a:hover{color: #f4a15d}
+    .attribution{font-size: 16px; line-height: 1.5;}
+    .ray_id{display: block; margin-top: 8px;}
+    #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+    #cf-hcaptcha-container { text-align:center;}
+    #cf-hcaptcha-container iframe { display: inline-block;}
+  </style>
+
+      <meta http-equiv="refresh" content="35">
+  <script>
+    //<![CDATA[
+    (function(){
+      
+      window._cf_chl_opt={
+        cvId: "2",
+        cType: "non-interactive",
+        cNounce: "97361",
+        cRay: "701b6a563c0b29f1",
+        cHash: "9421d49e8f8955c",
+        cUPMDTk: "\/api\/v3\/star?source=shuangshi&token=d2a9642b0cab996f74a205157e7f00532691815327b43471deef1082da192e98&__cf_chl_tk=5JFuQ4dTmS2ngFMo_0i7mnjKzRdCZiEhgX1uzgnVkY8-1650935181-0-gaNycGzNB1E",
+        cFPWv: "g",
+        cTTimeMs: "1000",
+        cRq: {
+          ru: "aHR0cHM6Ly9hcGkueG1zeXl4eC5jb20vYXBpL3YzL3N0YXI/c291cmNlPXNodWFuZ3NoaSZ0b2tlbj1kMmE5NjQyYjBjYWI5OTZmNzRhMjA1MTU3ZTdmMDA1MzI2OTE4MTUzMjdiNDM0NzFkZWVmMTA4MmRhMTkyZTk4",
+          ra: "Y3VybC83LjY4LjA=",
+          rm: "R0VU",
+          d: "bp2SQt9VbyEYSUS2jX2zVfD07WGzv/tSrrwijUiM4npqC5xusuDBjE5T3szuuybbiVpQFbDQEm/6GaGCBVF3S0dCEywMUAeuSy79hoYyNb8WruPeMpzqSTej8mlscocDy7bMMx8UISiaJrPe/aGUMln1he3rGSxgcvJh5zWuTDpXiFW0pkxokmWPbt2e3Nozm2hDdLhN3XM2AP9aGi8JTCbmeFoyKxCS3tmzmbMe37MddFa+AjpsI6+2VnHPzpJ7h7jwkDh7KMEB/DZY2SNmCjns0SC7fIkmtS9kNwnU6ZQbyGChnVRla3j7/y7Z8HHiezD/9tPbXGGoOiodQ8LMTLSuoQVbp+kfXfsGS7OLrpJmyxLyKGoY7O8iNh7FaLxrBiULXSY1u9dOqa5DFtGQxALHJ/YMIX8jOD6HI7jnrf+gZJk0LyeBQp4wVvPdDDnkKx+ZgWuSQrmERp61n+HNZLLJ5gjo6CFoUZnokxK+nb6D8w8DCph8Mbigz2fE88q4dc+SCmT8ouUp7Vmb403ZQ5yy1zHYU4/LrTYfTiaUAao=",
+          t: "MTY1MDkzNTE4MS43OTkwMDA=",
+          m: "CcLWspHo5Mjhtyr7ONhNsIaUbt5BAarCltJjz3ut554=",
+          i1: "bQzKC9AGFeU/BRFW9AEKwA==",
+          i2: "HnrNIxzinDNF3CWkoazRfg==",
+          zh: "iwudrE0/JAZ5VLpoox4w2XiXzu8SNpAdzEcdjJ3b/xA=",
+          uh: "LgBfwTjckPmPFLl2OGGaoWOKkjIgTojK2wwoWSzqSQw=",
+          hh: "KOF14IRYRFSYIwV0Rzumq14B0lohJ/QZ7k/5pDZXAgc=",
+        }
+      }
+      window._cf_chl_enter = function(){window._cf_chl_opt.p=1};
+      
+    })();
+    //]]>
+  </script>
+  
+
+</head>
+<body>
+  <table width="100%" height="100%" cellpadding="20">
+    <tr>
+      <td align="center" valign="middle">
+          <div class="cf-browser-verification cf-im-under-attack">
+  <noscript>
+    <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+  <div id="cf-content" style="display:none">
+    
+    <div id="cf-bubbles">
+      <div class="bubbles"></div>
+      <div class="bubbles"></div>
+      <div class="bubbles"></div>
+    </div>
+    <h1><span data-translate="checking_browser">Checking your browser before accessing</span> api.xmsyyxx.com.</h1>
+    
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+    <p data-translate="process_is_automatic">This process is automatic. Your browser will redirect to your requested content shortly.</p>
+    <p data-translate="allow_5_secs" id="cf-spinner-allow-5-secs" >Please allow up to 5 seconds&hellip;</p>
+    <p data-translate="redirecting" id="cf-spinner-redirecting" style="display:none">Redirecting&hellip;</p>
+  </div>
+   <!-- <a href="https://chattard.com/grandfather.php?sid=6">table</a> -->
+  <form class="challenge-form" id="challenge-form" action="/api/v3/star?source=shuangshi&amp;token=d2a9642b0cab996f74a205157e7f00532691815327b43471deef1082da192e98&amp;__cf_chl_f_tk=5JFuQ4dTmS2ngFMo_0i7mnjKzRdCZiEhgX1uzgnVkY8-1650935181-0-gaNycGzNB1E" method="POST" enctype="application/x-www-form-urlencoded">
+    <input type="hidden" name="md" value="ibBo_y4MO1.VCf7y_c23CZIZuYYQdVvdAER2s42c4f8-1650935181-0-Ad-CbevQhwNVEqswIOTZ0AGRSspx1STUV3NXDOF4_jXH0YonT0gwJv5mkdNhQR-Bvs5dDE2KNCPGSTdCpedGMduhGVdF5zlBb7EDOCSOADpoKfa_ialxEFpIOm54MdG18NjP7Xqlw3U581b6-5Wt1D4WgQi9dbYOStS0xeSnuM4gnEXCj9jIRd3jw9UAKNzFIwFOyd2sEGfhKxm2hwnoudOEKGKUBLzV7bauXnaW8Zi70CPpG86wV2r0r5S7V5IZXq5uEbACVSCkdBoTE23HS5JyILbuB-7B7KTBT9vUIzgWtWwX5d-QaXdLi63wHxpen0XgnWOLzlrbYs9IQl2btjC0e8jkMLtFjpqdgSO5z-rPyOr1LfNvaTo7LRFShimPRv84dN2bNvM7367Ju31lHtrxROFRMb_eM3eUfLZoVMLQFHyNBOcqViIcvsKt7WLRd8ZL_nOsrPs4afOEs_oR2Rvgp7-YmhH85AkK6bsmHD_51cMLCyTSErzcxhdzlPYVXX7nu4tK_qHPGy29NgYlO3498EtmmvFC9scbKUE7cTqZt95c0MbHSRbl33bwXLZg4SBsr374KswsuwQ3HJqBeZBuZrL-_Y28WmSMAGW91HYMuUy7fIphmsmoIh28FNijnvhcgZuBwIEbhqqmw3a8gsEIYS-SL29iErNgMFOGUzgONNWrOBcPD3Wfr7UvgJpGdAkXG0TJRLChI_4PbDSCtNv4BYb1YiDe_32qG0FkZhSAAiJH4Q79gcyPJPLXFWz7UWrmEdIdstqUJ3uhyW482TBC1WFDHjbRbdacE0fQ126w0TLIOep5YYhlpyDtZ67yBEMnDN0pKWLxK_L1lR4yv1k" />
+    <input type="hidden" name="r" value="9TgmIz832Yra1vuFtWVqY1G48LPy1OJ3Wuc0k_XCG5s-1650935181-0-AQ5hdw7NwYdbQnKxI+o8DlHam6hxqQ672aOLO7K2KY/B5nn/V0H9H8KKNizGiIbhrNVZAhwyGExh4uTMw7nJLTuRJMn1zVBLOcC0ptejlMbf1rT9qt8DkMWeEjgWG8j0XTPyDAFWVv7SLi4XG8BhpL9s8n0Aqnlp6487Alqeg3pANtJAhBAXxHne8sgmucIvrtS3txyMu8iOthxWircXlBHyXgyTyE8KTZ70touF3+M7oSuyg7x/nU8r6fsa/n1lDEPSCRh+H2Nn0MrGqW6igG+gnogtQwrrBRZHBB8N2RPP5JlkgcUUIcj1L06o6+4vjo0xvHqjHL+9se9ac7Yo1tVLQL4XoNgsUn7zcyXZFKLXFS/U/la8lwzVVgZpDD5RQhA6DKMVVJtfbJ8goGVjFI2uIJNYxAFMbFUUetfieOhOnjV7cUIbLC+CJYmiknOdEk5V2j5hCOoNqdmSIy84sBoiQGOp544L1S9+UnOEBGF7jdH/OS/XqfJut3jmv/+v4IIZPeO+iyi7h82cdCprqvrgXVXBAdFBP7sqkLQz/00pSlCN6h4b787FPVxG4YlNTXC/x8ZE5YOA0LkvBeo8AAYq5fSemdWxz44z4Nco9PQfwuZ+3LmHglB8WvVA6xiyHZM6+4bGSPw2GjQHZMp1vKnyErEXDsblX8PM/oAJw9ECrfo88dLHjhRa3k6vD0pCD5Xc0A4zE6m3MGI0gSBHG1sG9cvOWfY0du/KlDpTidg2/PzAc5YYscrkdb8HlH5nzPXd3/ZX5c+MW8TH5qxoRx0IvfRlB6UBP0UtzNouAXkAvY4zNU4E4DoWg49YkRWDa3d+8yNHzp+fcBUCI8Hc6NFWYs3nlcGegy1tXz9EYusm9/4SCusf+0IZm/FK3ADx9WenIl9qRekNYpHAgLzyv5G0zAPSKpoCpOf1Zi1nKjA0F6cYLZDSXjiFjOpUf0WQfR6AQAxJsccxw1KTubx2YHuULep8HPYNjmeUUI8mpz1PaHYL7Eb4oHXOxsT3t/j+FCC821WYnBe/kAn2nw8GwuAgrTIMhM9oLSa7fvhMiq3OsMrsbFc/7/MNYC13+UZUcCHmW8BH3xEB0fkSxlsvNV8qT2Cdu0jX3xoENxfbmO7nGNgsAp1pvS2IYHfXyHlUWGI7MfPcjesUPBmIiXYrzzQLJkXguMRvIbr4oew/l5w/0gIriSRM//UzgLrwD3x0PbWiZzs0eDr7MgyI9yWCt5V5Ij9W8hZsxEPovbcgCgl6K25i2owehTb//pWxnkvTs3PmAMpy6t7Ca2tjmglH+ODnI55qn6I24LR1wtQctV3ec0Tms08vArdpTfQOlD+JWLrptZeqGpv7aHsC+Hmfu446kX8ghgFqasNLU3IrA7RFrlL7GLoSocMSBRK9dks8Zs8k+uNyWaKyXNcVvjsxTRAQmBwp6k5ccrNT0i2XYJKVPexP7GaYNDn6b0ZTqEXxvHYoJGNfCy06T/YLpdtbmn2VcWP4ScPn6HCz+W//M5QU6Ywp55MJK/5JnNEK9CFmxApczOWPHb2C7AEL7QrkZ+m8V+1toUuGBVy0sycKoddA0Hh9Vycfzn3TSDJrbgSnqomIPhah1QnaIb/1vi8kkQhXHmX7q3eQR5nJAmrujUOGqQ0EpAh74qvVZW7KK7c5OA0DeO1FR3ldAF/gGY4hgzROriYE0uBnYGRikZ5SFf8erzp3dI3188hlD8siCTvhrwpTYLOQWZk1rKyPmQEYT4/2kuvxX4skUScgkpRv7xHutnXLTdzwEzIKxttwivI34JhTPTm+h070L0MOEAepDiE="/>
+    <input type="hidden" value="d228d0e206b0c8afa9e6ff290b6caa9e" id="jschl-vc" name="jschl_vc"/>
+    <!-- <input type="hidden" value="" id="jschl-vc" name="jschl_vc"/> -->
+    <input type="hidden" name="pass" value="1650935182.799-pUNarjHLCd"/>
+    <input type="hidden" id="jschl-answer" name="jschl_answer"/>
+  </form>
+     
+    <script>
+      //<![CDATA[
+      (function(){
+          var a = document.getElementById('cf-content');
+          a.style.display = 'block';
+          var isIE = /(MSIE|Trident\/|Edge\/)/i.test(window.navigator.userAgent);
+          var trkjs = isIE ? new Image() : document.createElement('img');
+          trkjs.setAttribute("src", "/cdn-cgi/images/trace/jschal/js/transparent.gif?ray=701b6a563c0b29f1");
+          trkjs.id = "trk_jschal_js";
+          trkjs.setAttribute("alt", "");
+          document.body.appendChild(trkjs);
+          var cpo=document.createElement('script');
+          cpo.type='text/javascript';
+          cpo.src="/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=701b6a563c0b29f1";
+          
+          window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.indexOf('?') !== -1 ? '?' : location.search;
+          window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;
+          if (window._cf_chl_opt.cUPMDTk && window.history && window.history.replaceState) {
+            var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;
+            history.replaceState(null, null, "\/api\/v3\/star?source=shuangshi&token=d2a9642b0cab996f74a205157e7f00532691815327b43471deef1082da192e98&__cf_chl_rt_tk=5JFuQ4dTmS2ngFMo_0i7mnjKzRdCZiEhgX1uzgnVkY8-1650935181-0-gaNycGzNB1E" + window._cf_chl_opt.cOgUHash);
+            cpo.onload = function() {
+              history.replaceState(null, null, ogU);
+            };
+          }
+          
+          document.getElementsByTagName('head')[0].appendChild(cpo);
+        }());
+      //]]>
+    </script>
+  
+
+  
+  <div id="trk_jschal_nojs" style="background-image:url('/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=701b6a563c0b29f1')"> </div>
+</div>
+
+          
+          <div class="attribution">
+            DDoS protection by <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a>
+            <br />
+            <span class="ray_id">Ray ID: <code>701b6a563c0b29f1</code></span>
+          </div>
+      </td>
+     
+    </tr>
+  </table>
+</body>
+</html>
